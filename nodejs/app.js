@@ -11,7 +11,7 @@ app.use(express.urlencoded({
 }));
 
 app.get('/', (req, res) => {
-  res.status(200).send('Hello, world!').end();
+  res.status(200).send('Hello, World!').end();
 });
 
 
